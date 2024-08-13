@@ -1,0 +1,25 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "vite": "bin/vite.js"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^22.2.0",
+    "rollup": "^4.20.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2"
+  }
+}
