@@ -8,12 +8,17 @@ importers:
 
   .:
     devDependencies:
+      create-vite:
+        specifier: workspace:*
+        version: link:packages/create-vite
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
       vite:
         specifier: workspace:*
         version: link:packages/vite
+
+  packages/create-vite: {}
 
   packages/vite:
     devDependencies:
